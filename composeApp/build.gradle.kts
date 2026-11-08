@@ -87,7 +87,7 @@ val keystoreProperties = Properties().apply {
 }
 
 android {
-    namespace = "app.pillion.v2"
+    namespace = "app.pillion"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
